@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 24px;
+  margin: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.headd {
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  width: 13%;
+}
+ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+.mood {
+  display: flex;
+  gap: 50px;
+}
+.titreQuiz {
+  align-self: center;
+  position: absolute;
+  left: 2%;
+  top: 15%;
+  display: none;
+}
+
+.all-myquizes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 100px auto;
+  gap: 50px;
+  width: 90%;
+  row-gap: 100px;
+}
+.container-quiz {
+  width: 400px;
+  position: relative;
+}
+.game-detials {
+  display: flex;
+  justify-content: space-between;
+}
+.start-btn {
+  width: fit-content;
+  padding: 16px 64px;
+  position: absolute;
+  left: 30%;
+  background-color: red;
+  font-size: 24px;
+  font-weight: 600;
+}
+.start-btn:hover {
+  background-color: green;
+}
+.game-img {
+  width: 100%;
+}
+.niveau-dificltue {
+  position: absolute;
+  top: 15%;
+  right: 2%;
+  display: none;
+}
+.nombre-qstions {
+  position: absolute;
+  left: 2%;
+  top: 75%;
+  display: none;
+}
+.temps-estime {
+  position: absolute;
+  top: 75%;
+  right: 2%;
+  display: none;
+}
+
+.container-quiz:hover {
+  .nombre-qstions {
+    display: block;
+  }
+  .temps-estime {
+    display: block;
+  }
+  .niveau-dificltue {
+    display: block;
+  }
+  .titreQuiz {
+    display: block;
+  }
+}
+.quizesbq {
+  background-image: url(img/pexels-pixelcop-2680270.jpg);
+}
+.allcontainer {
+  width: 60%;
+  background-color: rgb(109, 168, 215);
+  display: flex;
+  flex-direction: column;
+  margin: 50px auto;
+  gap: 50px;
+  padding: 5px;
+}
+.bar-up {
+  display: flex;
+  justify-content: space-around;
+}
+.score {
+}
+.timer {
+}
+.numbre-qst {
+}
+.down {
+  display: flex;
+  justify-content: space-between;
+}
+.type-qst {
+}
+
+.reponces {
+  width: 40%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: auto;
+}
+.a,
+.b,
+.c,
+.d {
+  padding: 24px 36px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.dh {
+  display: none;
+}
+.input {
+  padding: 36px 64px;
+  margin: 8px auto;
+}
+.enterChoix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+.submit {
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+.reslts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto;
+}
